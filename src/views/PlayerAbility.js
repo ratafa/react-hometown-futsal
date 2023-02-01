@@ -126,7 +126,7 @@ const PlayerAbility = () => {
                             <Row gap={15} align={'center'}>
                                 <Col gap={12} justify={'center'} align={'center'}>
                                     <Col justify={'flex-end'}>
-                                        <img src={playerData[playerName].img} alt={'profile'} style={{
+                                        <img src={playerData[playerName].img} alt={'profile'} loading={'lazy'} decoding={'async'} style={{
                                             width: '150px',
                                             height: '250px',
                                             border: 'solid 1px darkGrey',

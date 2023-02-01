@@ -7,7 +7,14 @@ import player4 from './resource/images/player/김재현.jpeg'
 import player12 from './resource/images/player/김창오.jpeg'
 import player6 from './resource/images/player/설민찬.jpeg'
 import player7 from './resource/images/player/유형석.jpeg'
+import player10 from './resource/images/player/최태경.jpeg'
+import player9 from './resource/images/player/송찬익.jpeg'
+import player5 from './resource/images/player/유인재.jpeg'
+import player14 from './resource/images/player/신승환.jpeg'
+import player3 from './resource/images/player/임동주.jpeg'
 import player11 from './resource/images/player/윤인권.jpeg'
+import player16 from './resource/images/player/김민형.jpeg'
+import player15 from './resource/images/player/임준수.jpeg'
 
 export const playerData = [
         {
@@ -20,8 +27,8 @@ export const playerData = [
             character: '캣맘',
             mostUsedFoot: '오른발',
             skill: 4,
-            ability: [8, 9, 6, 8, 10, 7],
-            total: 48,
+            ability: [7, 9, 6, 8, 10, 7],
+            total: 47,
         },
         {
             id: 1,
@@ -33,8 +40,8 @@ export const playerData = [
             character: '기흉, Agent',
             mostUsedFoot: '오른발',
             skill: 5,
-            ability: [6, 6, 3, 6, 6, 4],
-            total: 31,
+            ability: [6, 6, 4, 6, 6, 4],
+            total: 32,
         },
         {
             id: 2,
@@ -43,7 +50,7 @@ export const playerData = [
             height: '173cm',
             age: '25',
             country: '대한민국',
-            character: '살인',
+            character: '살인면허증',
             mostUsedFoot: '오른발',
             skill: 3,
             ability: [6, 5, 6, 6, 7, 6],
@@ -52,7 +59,7 @@ export const playerData = [
         {
             id: 3,
             name: '임동주',
-            img: `${player1}`,
+            img: `${player3}`,
             height: '174cm',
             age: '25',
             country: '대한민국',
@@ -78,11 +85,11 @@ export const playerData = [
         {
             id: 5,
             name: '유인재',
-            img: `${player2}`,
+            img: `${player5}`,
             height: '174cm',
             age: '25',
             country: '대한민국',
-            character: '몸빵, 헬창',
+            character: 'bbq',
             mostUsedFoot: '왼발',
             skill: 3,
             ability: [8, 6, 10, 6, 6, 7],
@@ -111,8 +118,8 @@ export const playerData = [
             character: '형명보, 빨딱',
             mostUsedFoot: '오른발',
             skill: 4,
-            ability: [8, 7, 7, 7, 8, 10],
-            total: 47,
+            ability: [9, 7, 7, 7, 8, 10],
+            total: 48,
         },
         {
             id: 8,
@@ -130,11 +137,11 @@ export const playerData = [
         {
             id: 9,
             name: '송찬익',
-            img: `${player1}`,
+            img: `${player9}`,
             height: '170cm',
             age: '25',
             country: '대한민국',
-            character: '섬주민, 어부',
+            character: '섬주민',
             mostUsedFoot: '오른발',
             skill: 5,
             ability: [7, 10, 5, 4, 7, 7],
@@ -143,7 +150,7 @@ export const playerData = [
         {
             id: 10,
             name: '최태경',
-            img: `${player1}`,
+            img: `${player10}`,
             height: '174cm',
             age: '25',
             country: '대한민국',
@@ -186,7 +193,7 @@ export const playerData = [
             height: '174cm',
             age: '25',
             country: '대한민국',
-            character: '오타쿠, 기린',
+            character: '애니마스터',
             mostUsedFoot: '오른발',
             skill: 5,
             ability: [7, 6, 8, 7, 7, 6],
@@ -194,11 +201,11 @@ export const playerData = [
         }, {
             id: 14,
             name: '신승환',
-            img: `${player13}`,
+            img: `${player14}`,
             height: '174cm',
             age: '25',
             country: '대한민국',
-            character: '난 이제 시작이야',
+            character: '강형욱',
             mostUsedFoot: '오른발',
             skill: 4,
             ability: [8, 7, 6, 8, 7, 9],
@@ -207,7 +214,7 @@ export const playerData = [
         {
             id: 15,
             name: '임준수',
-            img: `${player13}`,
+            img: `${player15}`,
             height: '174cm',
             age: '25',
             country: '대한민국',
@@ -220,7 +227,7 @@ export const playerData = [
         {
             id: 16,
             name: '김민형',
-            img: `${player13}`,
+            img: `${player16}`,
             height: '174cm',
             age: '25',
             country: '대한민국',
